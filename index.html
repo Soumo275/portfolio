@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Soumo portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+</head>
+<body>
+
+
+
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">S</div>
+			<div class="logo-text">Soumo portfolio</div>
+		</a>
+		
+		<section class="date-time-section">
+			<div id="date-time">Loading...</div>
+		</section>
+		<nav>
+			<ul id="menu">
+				
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#contact" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+
+
+
+
+	<main>
+
+
+		<!-- <section class="date-time-section">
+			<h2>Current Date & Time</h2>
+			<div id="date-time">Loading...</div>
+		</section> -->
+
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Soumyadip Mukherjee
+					</h1>
+					<p>
+						<br>I'm a pre-final year student at <b>Vellore Institute of Technology, Chennai</b>, majoring in <b>Computer Science</b>. I'm passionate about full-stack development and competitive programming, continuously exploring various tech topics through my journey.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./Soumyadip_resume_3.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="#contact" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/Soumo275" target="_new">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/soumyadip-mukherjee/" target="_new">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/sm_final.png" alt="Soumyadip" width="auto" height="auto"/>
+			</div>
+		</section>
+
+
+		<section id="skills" class="skills container">
+			<h2>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>React</li>
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Express</li>
+						<li>Python</li>
+						<li>Java</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						I'm a web developer creating dynamic, responsive websites, currently investigating the practical applications of machine learning.
+						 Competitive programming strengthens my problem-solving, and my projects span various tech areas, reflecting a dedication to continuous growth and learning.
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section id="projects" class="projects container">
+			<h2>
+				<small>Recent</small>
+				Projects
+			</h2>
+			<div class="projects-list">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/ss1.png" alt="Project 1 - CureLink" width="100%" />
+							<figcaption>
+								Project - CureLink
+							</figcaption>
+						</div>
+					</figure>
+					<h3>CureLink</h3>
+					<div>2024</div>
+					<p>An online medicine store & doctor appointment booking system using OAuth 2.0, Razorpay, and AWS.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/ecg.jpg" alt="Project 2 - Diagnosis of 12-Lead ECG" width="100%" />
+							<figcaption>
+								Project - ECG Diagnosis
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Diagnosis of 12-Lead ECG</h3>
+					<div>2023</div>
+					<p>Developed a Residual Neural Network (ResNet) model for ECG image diagnosis, achieving 90% accuracy.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/dvsm.jpeg" alt="Project 3 - DevSmith VS Code Extension" width="100%" />
+							<figcaption>
+								Project - DevSmith VS Code Extension
+							</figcaption>
+						</div>
+					</figure>
+					<h3>DevSmith - VS Code Extension</h3>
+					<div>2024</div>
+					<p>A powerful VS Code extension leveraging AI and  Gemini API for intelligent code suggestions, debugging, and documentation. </p>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact" class="contact container">
+			<h2>Contact Me</h2>
+			<form id="contactForm">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="Enter your name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Enter your email">
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+				</div>
+				<button type="submit" class="button black">Send Message</button>
+			</form>
+			<p id="formMessage" class="hidden"></p>
+		</section>
+		
+
+	</main>
+</body>
+<script>
+	    function updateDateTime() {
+        const now = new Date();
+        const formattedDateTime = now.toLocaleString();
+        console.log("Updating Date-Time:", formattedDateTime);
+        document.getElementById("date-time").textContent = formattedDateTime;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    });
+</script>
+</html>
+
+
+
+
