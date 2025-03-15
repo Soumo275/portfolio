@@ -382,8 +382,33 @@ h3 {
                     }
                 }
             }
+			
         }
+		
     }
+	.projects-list button {
+		width: 100%;
+		padding: 10px;
+		font-size: 16px;
+		font-weight: bold;
+		color: #ffffff;
+		background: linear-gradient(45deg, #57b1ff, #6e9cca);
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	}
+	
+	.projects-list button:hover {
+		background: linear-gradient(45deg, #f1f196, #f3e38a);
+		transform: scale(1.03);
+		box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+	}
+	
+	.projects-list button:active {
+		transform: scale(0.97);
+	}
 }
 
 
