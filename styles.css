@@ -24,13 +24,11 @@ body {
 	font-size: 20px;
 	padding-bottom: 1000px;
 	
-	/* Animated Gradient Background */
 	background: linear-gradient(45deg, rgb(5, 5, 5), rgba(214, 214, 80, 0.6), rgba(100, 171, 202, 0.6), rgba(228, 132, 22, 0.6), rgba(17, 167, 17, 0.6));
 	background-size: 300% 300%;
 	animation: color 8s ease-in infinite;
 }
 
-/* Gradient Animation */
 @keyframes color {
 	0% { background-position: 0 50%; }
 	50% { background-position: 100% 50%; }
@@ -413,73 +411,73 @@ h3 {
 
 
 .contact {
-	padding: 60px 20px; /* Added horizontal padding for responsiveness */
+	padding: 60px 20px; 
 	text-align: center;
-	background-color: #f9f9f9; /* Added a subtle background */
+	background-color: #f9f9f9; 
   }
   
   .contact h2 {
-	margin-bottom: 30px; /* Increased margin for better spacing */
-	font-size: 2.5rem; /* Increased font size for headings */
-	color: #333; /* Darker color for headings */
+	margin-bottom: 30px; 
+	font-size: 2.5rem; 
+	color: #333; 
   }
   
   .form-group {
-	margin-bottom: 20px; /* Increased margin */
+	margin-bottom: 20px; 
 	text-align: left;
-	max-width: 600px; /* Slightly increased max-width */
-	margin: 0 auto; /* Center the form */
-	padding: 0 15px; /* Added padding to form groups for responsiveness */
+	max-width: 600px; 
+	margin: 0 auto; 
+	padding: 0 15px; 
   }
   
   .form-group label {
 	display: block;
-	margin-bottom: 8px; /* Increased margin */
-	font-weight: 600; /* Slightly bolder font-weight */
-	color: #555; /* Slightly darker label color */
+	margin-bottom: 8px; 
+	font-weight: 600; 
+	color: #555;
   }
   
   .form-group input,
   .form-group textarea {
 	width: 100%;
-	padding: 12px; /* Increased padding */
-	border: 1px solid #ddd; /* Lighter border */
-	border-radius: 8px; /* Slightly more rounded corners */
-	font-size: 1rem; /* Consistent font size */
-	box-sizing: border-box; /* Ensures padding and border are included in width */
-	transition: border-color 0.3s ease; /* Smooth border transition */
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	font-size: 1rem; 
+	box-sizing: border-box; 
+	transition: border-color 0.3s ease; 
   }
   
   .form-group input:focus,
   .form-group textarea:focus {
 	outline: none;
-	border-color: #007bff; /* Highlight on focus */
-	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Added a subtle shadow on focus */
+	border-color: #007bff; 
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
   }
   
   .button.black {
 	display: inline-block;
-	padding: 12px 25px; /* Increased button padding */
-	background-color: #333; /* Darker background color */
+	padding: 12px 25px;
+	background-color: #333; 
 	color: white;
-	border-radius: 8px; /* Slightly more rounded corners */
+	border-radius: 8px;
 	text-decoration: none;
 	cursor: pointer;
-	transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
-	font-weight: 600; /* Bolder font for button */
-	border: none; /* remove default border */
+	transition: background-color 0.3s ease, transform 0.2s ease; 
+	font-weight: 600; 
+	border: none;
   }
   
   .button.black:hover {
-	background-color: #555; /* Lighter background on hover */
-	transform: translateY(-2px); /* Slight upward movement on hover */
+	background-color: #555;
+	transform: translateY(-2px);
   }
   
   #formMessage {
-	margin-top: 20px; /* Increased margin */
-	font-weight: 600; /* Bolder font for message */
-	color: #28a745; /* Green color for success messages */
-	text-align: center; /* Center the message */
+	margin-top: 20px;
+	font-weight: 600; 
+	color: #28a745; 
+	text-align: center; 
   }
   
   #formMessage.error {
